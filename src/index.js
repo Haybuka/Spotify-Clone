@@ -10,3 +10,6 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// To commit
+// git push -u origin main

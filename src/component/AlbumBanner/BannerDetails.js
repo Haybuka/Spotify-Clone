@@ -4,7 +4,7 @@ import { FaHeadphonesAlt } from "react-icons/fa";
 import verifiedIcon from "../../Assets/Images/verified-badge.png";
 const BannerDetails = () => {
   return (
-    <div className="banner__details">
+    <div className="banner__details ">
       {/* nav */}
       <DetailsNav />
 
@@ -52,6 +52,8 @@ const DetailsNav = () => (
       Home / <span className="">Popular artists</span>
     </p>
 
-    <BsThreeDots className=" text-xl" />
+    <button aria-label="ablum detail toggle" className="text-xl">
+      <BsThreeDots />
+    </button>
   </section>
 );

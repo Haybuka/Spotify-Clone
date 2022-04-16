@@ -6,7 +6,7 @@
 }
 
 .banner__details {
-  @apply relative z-10 x-padding py-10  flex flex-col justify-between bg-gradient-to-b from-white/0 to-black/70 h-full;
+  @apply relative z-10 x-padding py-10 flex flex-col justify-between bg-gradient-to-b from-white/0 to-black/70 h-full;
 }
 
 .btn {

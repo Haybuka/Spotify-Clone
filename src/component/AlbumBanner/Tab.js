@@ -21,10 +21,10 @@ const Tab = () => {
     setTab(newTab);
   };
   return (
-    <section className="px-4 pr-8 light-text capitalize bg-black/90  backdrop-blur flex items-center justify-between">
+    <section className="relative z-10 px-4 pr-8 light-text capitalize bg-black backdrop-blur flex items-center justify-between">
       <ul className="flex">
         {tab.map(({ name, isActive }, index) => (
-          <li key={index} className="">
+          <li key={index}>
             <button
               onClick={() => changeTab(index)}
               className={`relative p-4 transition-all duration-500 opacity-50 ${

@@ -15,9 +15,8 @@ const AlbumBanner = () => {
       </div>
 
       {/* data */}
-      <div className="flex-1">
-        <BannerDetails />
-      </div>
+
+      <BannerDetails />
       <Tab />
     </header>
   );

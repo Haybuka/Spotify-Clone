@@ -5,7 +5,7 @@ import Tab from "./Tab";
 import "./Styles/index.css";
 const AlbumBanner = () => {
   return (
-    <header className="banner relative w-[900px] h-[350px] flex flex-col  ">
+    <header className="banner relative flex-1 h-[350px] flex flex-col  ">
       <div className="h-full w-full absolute left-0 top-0 ">
         <img
           src={Album_banner}

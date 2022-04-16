@@ -7,8 +7,10 @@ function App() {
   const queryClient = new QueryClient();
   return (
     <QueryClientProvider client={queryClient}>
-      <AlbumBanner />
-      <Navigation />
+      <section className="flex">
+        <Navigation />
+        <AlbumBanner />
+      </section>
     </QueryClientProvider>
   );
 }

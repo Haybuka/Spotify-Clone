@@ -25,16 +25,12 @@ const Tab = () => {
       <ul className="flex">
         {tab.map(({ name, isActive }, index) => (
           <li key={index}>
-            <button
-              onClick={() => changeTab(index)}
-              className={`relative p-4 transition-all duration-500 opacity-50 ${
-                isActive ? "opacity-100" : " "
-              }  `}>
-              {name}
-              {isActive ? (
-                <div className="absolute h-1 w-[40%] left-1/2 -translate-x-1/2 bg-white -z-10  bottom-0"></div>
-              ) : null}
-            </button>
+            <TabButton
+              name={name}
+              id={index}
+              isActive={isActive}
+              changeTab={changeTab}
+            />
           </li>
         ))}
       </ul>
@@ -47,3 +43,16 @@ const Tab = () => {
   );
 };
 export default Tab;
+
+const TabButton = ({ isActive, name, id, changeTab }) => (
+  <button
+    onClick={() => changeTab(id)}
+    className={`relative p-4 transition-all duration-500 opacity-50 ${
+      isActive ? "opacity-100" : " "
+    }  `}>
+    {name}
+    {isActive ? (
+      <div className="absolute h-1 w-[40%] left-1/2 -translate-x-1/2 bg-white -z-10  bottom-0"></div>
+    ) : null}
+  </button>
+);

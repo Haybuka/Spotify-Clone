@@ -1,12 +1,12 @@
+import { QueryClient, QueryClientProvider } from "react-query";
+import AlbumBanner from "./component/AlbumBanner/AlbumBanner";
 
-import { QueryClient,QueryClientProvider } from 'react-query'
-import './App.css';
-
+import "./App.css";
 function App() {
-  const queryClient = new QueryClient()
+  const queryClient = new QueryClient();
   return (
     <QueryClientProvider client={queryClient}>
-        <h3>Spotify</h3>
+      <AlbumBanner />
     </QueryClientProvider>
   );
 }

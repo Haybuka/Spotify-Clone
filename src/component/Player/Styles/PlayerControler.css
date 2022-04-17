@@ -1,0 +1,5 @@
+.play__pause__btn {
+  @apply p-3 text-black bg-white rounded-full opacity-100 bg-clip-border mx-1;
+  outline: 2px solid white;
+  outline-offset: 0.2rem;
+}

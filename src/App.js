@@ -1,6 +1,7 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 import AlbumBanner from "./component/AlbumBanner/AlbumBanner";
 import Navigation from "./component/Navigation/Navigation";
+import Player from "./component/Player/Player";
 import "./App.css";
 
 function App() {
@@ -9,7 +10,10 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <section className="flex">
         <Navigation />
-        <AlbumBanner />
+        <div className="flex-1">
+          <AlbumBanner />
+          <Player />
+        </div>
       </section>
     </QueryClientProvider>
   );

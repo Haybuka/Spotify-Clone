@@ -1,0 +1,6 @@
+.Nav-logo{
+   @apply text-white my-6 flex justify-between items-center;
+}
+.Nav-fancy{
+    @apply flex justify-between items-center
+}

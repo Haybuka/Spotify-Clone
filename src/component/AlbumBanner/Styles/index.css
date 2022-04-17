@@ -1,0 +1,24 @@
+.banner {
+  @apply text-white;
+}
+.banner__image {
+  object-position: 0 25%;
+}
+
+.banner__details {
+  @apply relative z-10 x-padding py-10 flex flex-col justify-between bg-gradient-to-b from-white/0 to-black/70 h-full;
+}
+
+.btn {
+  @apply py-2 rounded-3xl;
+}
+
+.x-padding {
+  @apply px-8;
+}
+.light-text {
+  @apply text-sm;
+}
+.light-text span {
+  @apply opacity-50;
+}

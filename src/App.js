@@ -11,7 +11,10 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <section className="flex">
         <Navigation />
-        <AlbumBanner />
+        <div className="flex-1">
+          <AlbumBanner />
+          <Player />
+        </div>
         <Sidebar />
       </section>
     </QueryClientProvider>

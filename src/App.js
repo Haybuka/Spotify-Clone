@@ -1,6 +1,7 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 import AlbumBanner from "./component/AlbumBanner/AlbumBanner";
 import Navigation from "./component/Navigation/Navigation";
+import Sidebar from "./component/Sidebar/Sidebar";
 import "./App.css";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <section className="flex">
         <Navigation />
         <AlbumBanner />
+        <Sidebar />
       </section>
     </QueryClientProvider>
   );

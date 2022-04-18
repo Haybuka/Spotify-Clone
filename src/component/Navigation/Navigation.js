@@ -1,19 +1,18 @@
-import React from 'react'
-import { FaPlus,FaEllipsisH, FaChevronLeft, FaChevronRight} from "react-icons/fa";
-import  { NavigationLogo,NavigationTop } from './NavigationLogo';
-import {NavigationMenu,NavigationPlaylist} from './NavigationMenu';
-import NavigationPlayer from './NavigationPlayer';
+import React,{useState} from 'react'
+import NavigationFull from './NavigationFull'
 
 function Navigation() {
+  const [navActive,setNavActive] = useState(false)
+
+  function handleClick(){
+    setNavActive(!navActive)
+  }
   return (
-    <header className='Nav px-6 py-6  text-white bg-black w-1/5'>
-        <NavigationTop />
-        <NavigationLogo />
-        <nav>
-            <NavigationMenu />
-            <NavigationPlaylist />    
-        </nav>
-        <NavigationPlayer />
+    <header className='Nav px-4 py-6  text-white bg-black inline-block' onClick={ handleClick}>
+    
+ 
+           {navActive ?  <NavigationFull isFullNav={true}/> : <NavigationFull isFullNav={false}/>}
+
     </header>
   )
 }

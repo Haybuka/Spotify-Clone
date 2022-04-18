@@ -162,6 +162,37 @@ function MusicListing() {
                     </section>
                  </aside>
             </li>
+            <li className='MusicList-ListItem'>
+               <aside>
+                  <section className='flex items-center justify-between'>
+                        <p className=''> #6 </p>
+                        <div className='Music-img_div overflow-hidden mx-4 w-10 h-10 bg-red-500 rounded-md'>
+                           <img className='w-full h-full' src={arianaImage} alt="" />
+
+                        </div>
+                        <h4 className='mx-4'>Music</h4>
+                        <p className='mx-10 tracking-wider'>Album</p>
+                   </section>
+               </aside>
+               <aside>
+                    <section className='flex items-center justify-between'>
+                         <p className='items-center hidden md:flex'> 
+                             <i className='inline-block mr-4'><FaHeadphonesAlt /></i>
+                             <span className='inline-block'> 537,058,915</span>
+                         </p>
+                         <p className='items-center mx-6 hidden md:flex'> 
+                             <i className='inline-block mr-4'><FaClock /></i>
+                             <span className='inline-block'> 3:11</span>
+                         </p>
+                         <p className='items-center mx-6 hidden md:flex'> 
+                             <i className='inline-block'><FaHeart /></i>
+                         </p>
+                         <p className='flex items-center mx-6'> 
+                             <i className='inline-block'><FaEllipsisH /></i>
+                         </p>
+                    </section>
+                 </aside>
+            </li>
         </ul>
   )
 }

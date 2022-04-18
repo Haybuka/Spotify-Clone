@@ -9,5 +9,5 @@
     background-image: linear-gradient(to right,#fff, rgba(0, 0, 0, 0.422), rgba(255, 255, 255, 0.449),rgba(0, 0, 0, 0.422),#fff)
 }
 .MusicList-ListItem{
-    @apply  flex justify-between items-center my-4 pr-6 py-2;
+    @apply  flex justify-between items-center my-2 pr-6 py-2;
 }

@@ -15,21 +15,21 @@ function MusicListing() {
                            <img className='w-full h-full' src={arianaImage} alt="" />
 
                         </div>
-                        <h4 className='mx-4'>Music Name</h4>
-                        <p className='mx-10 tracking-wider'>Hunting High and Low</p>
+                        <h4 className='mx-4'>Music</h4>
+                        <p className='mx-10 tracking-wider'>Album</p>
                    </section>
                </aside>
                <aside>
                     <section className='flex items-center justify-between'>
-                         <p className='flex items-center'> 
+                         <p className='items-center hidden md:flex'> 
                              <i className='inline-block mr-4'><FaHeadphonesAlt /></i>
                              <span className='inline-block'> 537,058,915</span>
                          </p>
-                         <p className='flex items-center mx-6'> 
+                         <p className=' items-center mx-6 hidden md:flex'> 
                              <i className='inline-block mr-4'><FaClock /></i>
-                             <span className='inline-block'> 3:11</span>
+                             <span className='inline-block'> 5:11</span>
                          </p>
-                         <p className='flex items-center mx-6'> 
+                         <p className='items-center mx-6 hidden md:flex'> 
                              <i className='inline-block'><FaHeart /></i>
                          </p>
                          <p className='flex items-center mx-6'> 
@@ -46,21 +46,21 @@ function MusicListing() {
                            <img className='w-full h-full' src={arianaImage} alt="" />
 
                         </div>
-                        <h4 className='mx-4'>Music Name</h4>
-                        <p className='mx-10 tracking-wider'>Hunting High and Low</p>
+                        <h4 className='mx-4'>Music</h4>
+                        <p className='mx-10 tracking-wider'>Album</p>
                    </section>
                </aside>
                <aside>
                     <section className='flex items-center justify-between'>
-                         <p className='flex items-center'> 
+                         <p className='items-center hidden md:flex'> 
                              <i className='inline-block mr-4'><FaHeadphonesAlt /></i>
                              <span className='inline-block'> 537,058,915</span>
                          </p>
-                         <p className='flex items-center mx-6'> 
+                         <p className='items-center mx-6 hidden md:flex'> 
                              <i className='inline-block mr-4'><FaClock /></i>
                              <span className='inline-block'> 3:11</span>
                          </p>
-                         <p className='flex items-center mx-6'> 
+                         <p className='items-center mx-6 hidden md:flex'> 
                              <i className='inline-block'><FaHeart /></i>
                          </p>
                          <p className='flex items-center mx-6'> 
@@ -77,21 +77,21 @@ function MusicListing() {
                            <img className='w-full h-full' src={arianaImage} alt="" />
 
                         </div>
-                        <h4 className='mx-4'>Music Name</h4>
-                        <p className='mx-10 tracking-wider'>Hunting High and Low</p>
+                        <h4 className='mx-4'>Music</h4>
+                        <p className='mx-10 tracking-wider'>Album</p>
                    </section>
                </aside>
                <aside>
                     <section className='flex items-center justify-between'>
-                         <p className='flex items-center'> 
+                         <p className='items-center hidden md:flex'> 
                              <i className='inline-block mr-4'><FaHeadphonesAlt /></i>
                              <span className='inline-block'> 537,058,915</span>
                          </p>
-                         <p className='flex items-center mx-6'> 
+                         <p className='items-center mx-6 hidden md:flex'> 
                              <i className='inline-block mr-4'><FaClock /></i>
                              <span className='inline-block'> 3:11</span>
                          </p>
-                         <p className='flex items-center mx-6'> 
+                         <p className='items-center mx-6 hidden md:flex'> 
                              <i className='inline-block'><FaHeart /></i>
                          </p>
                          <p className='flex items-center mx-6'> 
@@ -108,21 +108,21 @@ function MusicListing() {
                            <img className='w-full h-full' src={arianaImage} alt="" />
 
                         </div>
-                        <h4 className='mx-4'>Music Name</h4>
-                        <p className='mx-10 tracking-wider'>Hunting High and Low</p>
+                        <h4 className='mx-4'>Music</h4>
+                        <p className='mx-10 tracking-wider'>Album</p>
                    </section>
                </aside>
                <aside>
                     <section className='flex items-center justify-between'>
-                         <p className='flex items-center'> 
+                         <p className='items-center hidden md:flex'> 
                              <i className='inline-block mr-4'><FaHeadphonesAlt /></i>
                              <span className='inline-block'> 537,058,915</span>
                          </p>
-                         <p className='flex items-center mx-6'> 
+                         <p className='items-center mx-6 hidden md:flex'> 
                              <i className='inline-block mr-4'><FaClock /></i>
                              <span className='inline-block'> 3:11</span>
                          </p>
-                         <p className='flex items-center mx-6'> 
+                         <p className='items-center mx-6 hidden md:flex'> 
                              <i className='inline-block'><FaHeart /></i>
                          </p>
                          <p className='flex items-center mx-6'> 
@@ -139,21 +139,21 @@ function MusicListing() {
                            <img className='w-full h-full' src={arianaImage} alt="" />
 
                         </div>
-                        <h4 className='mx-4'>Music Name</h4>
-                        <p className='mx-10 tracking-wider'>Hunting High and Low</p>
+                        <h4 className='mx-4'>Music</h4>
+                        <p className='mx-10 tracking-wider'>Album</p>
                    </section>
                </aside>
                <aside>
                     <section className='flex items-center justify-between'>
-                         <p className='flex items-center'> 
+                         <p className='items-center hidden md:flex'> 
                              <i className='inline-block mr-4'><FaHeadphonesAlt /></i>
                              <span className='inline-block'> 537,058,915</span>
                          </p>
-                         <p className='flex items-center mx-6'> 
+                         <p className='items-center mx-6 hidden md:flex'> 
                              <i className='inline-block mr-4'><FaClock /></i>
                              <span className='inline-block'> 3:11</span>
                          </p>
-                         <p className='flex items-center mx-6'> 
+                         <p className='items-center mx-6 hidden md:flex'> 
                              <i className='inline-block'><FaHeart /></i>
                          </p>
                          <p className='flex items-center mx-6'> 

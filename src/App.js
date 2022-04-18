@@ -10,7 +10,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
      <NavigationProvider>
-          <section className="flex">
+          <section className="flex overflow-x-hidden">
               <Navigation />
                <main className="w-full">
                <AlbumBanner />

@@ -9,8 +9,8 @@ function NavigationPlayer({isFullNav}) {
                  <div className='w-12 h-12 bg-white rounded-full flex justify-center items-center'>
                     <span className='bg-black w-4 h-4 rounded-full'> </span>
                  </div>
-                <p className='ml-4 py-2'>
-                    <span className='block font-bold'>Save Your Tears (With ...</span>
+                <p className='ml-2 py-2'>
+                    <span className='block font-bold'>Save Your Tears</span>
                     <span className='block text-sm'>Ariana Grande</span>
                  </p>
                </>

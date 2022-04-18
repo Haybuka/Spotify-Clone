@@ -1,5 +1,5 @@
 .MusicList-List{
-    @apply overflow-y-scroll scroll-smooth h-72 text-white;
+    @apply overflow-y-scroll scroll-smooth h-80 text-white;
     scrollbar-width: none;
 }
 .MusicList-List .active{

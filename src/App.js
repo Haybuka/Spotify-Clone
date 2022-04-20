@@ -19,7 +19,7 @@ function App() {
             <AlbumList />
             <Player />
           </main>
-          <div className="w-14 bg-black py-6">
+          <div className="w-14 bg-spotify-100 py-6">
             {/* go pro menu goes here */}
             <Sidebar />
           </div>

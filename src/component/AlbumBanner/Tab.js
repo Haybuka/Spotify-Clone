@@ -21,7 +21,7 @@ const Tab = () => {
     setTab(newTab);
   };
   return (
-    <section className="relative z-10 px-4 pr-8 light-text capitalize bg-black backdrop-blur flex items-center justify-between">
+    <section className="relative z-10 px-4 pr-8 light-text capitalize bg-spotify-300 backdrop-blur flex items-center justify-between">
       <ul className="flex">
         {tab.map(({ name, isActive }, index) => (
           <li key={index}>

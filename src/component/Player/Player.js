@@ -4,7 +4,7 @@ import PlayerAvatar from "./PlayerAvatar";
 import PlayerMusicProgress from "./PlayerProgress";
 const Player = () => {
   return (
-    <section className="p-6  bg-black  text-white flex gap-10 ">
+    <section className="p-6  bg-spotify-400  text-white flex gap-10 ">
       {/* avatar */}
       <PlayerAvatar />
       {/* control */}

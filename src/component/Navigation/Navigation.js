@@ -8,7 +8,7 @@ function Navigation() {
     setNavActive(!navActive)
   }
   return (
-    <header className='Nav px-4 py-6  text-white bg-black inline-block' onClick={ handleClick}>
+    <header className='Nav px-4 py-6  text-white bg-spotify-100 inline-block' onClick={ handleClick}>
     
  
            {navActive ?  <NavigationFull isFullNav={true}/> : <NavigationFull isFullNav={false}/>}

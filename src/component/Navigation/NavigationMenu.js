@@ -47,37 +47,37 @@ export function NavigationMenu({isFullNav}) {
                ) : (
                 <ul>
                 <li className='flex justify-center my-6 capitalize items-center'>
-                    <i className='mr-6 text-xl'> 
+                    <i className=' text-xl'> 
                        <FaHome />
                     </i>
                  
                 </li>
                 <li className='flex justify-center my-6 capitalize items-center'>
-                    <i className='mr-6 text-xl'> 
+                    <i className=' text-xl'> 
                       <FaCompass />
                     </i>
                   
                 </li>
                 <li className='flex justify-center my-6 capitalize '>
-                    <i className='mr-6 text-xl'> 
+                    <i className=' text-xl'> 
                       <FaBroadcastTower />
                     </i>
        
                 </li>
                 <li className='flex justify-center my-6 capitalize items-center'>
-                    <i className='mr-6 text-xl'> 
+                    <i className=' text-xl'> 
                       <FaMicrophone />
                     </i>
                    
                 </li>
                 <li className='flex justify-center my-6 capitalize items-center'>
-                    <i className='mr-6 text-xl'> 
+                    <i className=' text-xl'> 
                        <FaCompactDisc />
                     </i>
                      
                 </li>
                 <li className='flex justify-center my-6 capitalize items-cnter'>
-                    <i className='mr-6 text-xl'>
+                    <i className=' text-xl'>
                       <FaPodcast />
                      </i>
                     
@@ -91,12 +91,17 @@ export function NavigationMenu({isFullNav}) {
 export function NavigationPlaylist({isFullNav}){
     return (
         <section className='Nav-playlist'>
-        <h3 className='flex uppercase mb-10 justify-between items-center'> 
-            {isFullNav && <p> Playlist </p>}
-            <i>
-                 <FaPlus />
-            </i>
-       </h3>
+        {isFullNav ? (
+           <h3 className='flex uppercase mb-10 justify-between items-center'> 
+                  <p> Playlist </p>
+                 <i><FaPlus /></i>
+           </h3>
+        ):(
+          <h3 className='flex uppercase mb-10 justify-center items-center'> 
+             <i><FaPlus /></i>
+          </h3>
+        )}
+        
        <ul>
                    <li className='flex justify-center my-6 capitalize items-center'>
                      {isFullNav ? (
@@ -113,7 +118,7 @@ export function NavigationPlaylist({isFullNav}){
                          </>
                      ): (
                          <>
-                            <i className='mr-6 text-xl'> 
+                            <i className='text-xl'> 
                                  <FaList/>
                             </i>
                          </>
@@ -134,7 +139,7 @@ export function NavigationPlaylist({isFullNav}){
                          </>
                      ): (
                          <>
-                            <i className='mr-6 text-xl'> 
+                            <i className=' text-xl'> 
                                  <FaList/>
                             </i>
                          </>
@@ -155,7 +160,7 @@ export function NavigationPlaylist({isFullNav}){
                          </>
                      ): (
                          <>
-                            <i className='mr-6 text-xl'> 
+                            <i className='text-xl'> 
                                  <FaList/>
                             </i>
                          </>

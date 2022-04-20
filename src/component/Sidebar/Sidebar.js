@@ -6,7 +6,7 @@ import { MdOutlineLightMode } from "react-icons/md";
 import SidebarAvatar from "./SidebarAvatar";
 const Sidebar = () => {
   return (
-    <section className="flex flex-col h-full justify-between bg-black/90  text-white px-4 py-6 ">
+    <section className="flex flex-col h-full justify-between bg-spotify-100  text-white px-4 py-6 ">
       {/* top half */}
 
       <section className="flex flex-col text-2xl gap-8 items-center opacity-90">

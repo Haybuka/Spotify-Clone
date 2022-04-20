@@ -6,8 +6,9 @@
     @apply text-green-500;
 }
 .MusicList-List li:hover{
-    background-image: linear-gradient(to right,#fff, rgba(0, 0, 0, 0.422), rgba(255, 255, 255, 0.449),rgba(0, 0, 0, 0.422),#fff)
+
+    background-image: linear-gradient(to right,#28171d, rgba(0, 0, 0, 0.422), #332f2e,#302627,#28171d)
 }
 .MusicList-ListItem{
-    @apply  flex justify-between items-center my-2 pr-6 py-2;
+    @apply  flex justify-between items-center my-2 pr-6 py-2 cursor-pointer;
 }
